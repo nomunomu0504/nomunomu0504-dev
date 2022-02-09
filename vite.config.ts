@@ -7,17 +7,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    reactRefresh(),
-    viteReactJsx(),
-    VitePWA({
-      strategies: "injectManifest",
-      manifest: {
-        // content of manifest
-      },
-    }),
-    vanillaExtractPlugin(),
-  ],
+  plugins: [reactRefresh(), viteReactJsx(), VitePWA(), vanillaExtractPlugin()],
   server: {
     open: true,
   },
