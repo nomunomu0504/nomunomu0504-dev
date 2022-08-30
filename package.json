@@ -31,7 +31,7 @@
     "react-dom": "^17.0.2",
     "rocon": "^1.2.5",
     "typescript": "^4.5.5",
-    "vite": "^2.8.0",
+    "vite": "^2.9.13",
     "vite-plugin-pwa": "^0.11.13",
     "vite-react-jsx": "^1.1.2"
   }
